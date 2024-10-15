@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: white;
+}
+section {
+    background: linear-gradient(to bottom right, #586fd7, #223bad);
+    border: 10px solid #dee6f8;
+    border-radius: 20px;
+    width: 600px;
+    text-align: center;
+    position: relative;
+}
+.do {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.o, .i, .u, .y, .t {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 4px solid white;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5); 
+}
+h1 {
+    padding-top: 50px;
+}
+p {
+    padding: 10px;
+    font-size: small;
+}
+input {
+    width: 200px;
+    height: 40px;
+    border-radius: 30px;
+
+
+}
+.input {
+    position: relative;
+    width: 208px;
+    height: 46px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+.do {
+    position: absolute;
+    right: 5px;
+    top: 7px;
+}
+input::placeholder {
+    font-size: smaller;
+}
+
+.o {
+    position: absolute;
+    left: 110px;
+    bottom: -40px;
+}
+.i {
+    position: absolute;
+    left: 190px;
+    bottom: -40px;
+}
+.u {
+    position: absolute;
+    left: 270px;
+    bottom: -40px;
+}
+.y {
+    position: absolute;
+    left: 350px;
+    bottom: -40px;
+}
+.t {
+    position: absolute;
+    left: 430px;
+    bottom: -40px;
+}
